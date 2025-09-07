@@ -23,3 +23,19 @@ a {
   text-align: end;
   cursor: pointer;
 }
+
+.section-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+#blue-div,
+#green-div,
+#yellow-div,
+#red-div {
+  width: 200px;
+  height: 200px;
+}
